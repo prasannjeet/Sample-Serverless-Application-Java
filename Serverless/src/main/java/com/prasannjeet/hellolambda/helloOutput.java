@@ -1,9 +1,13 @@
+/*
+ * Copyright (c) 2019. Prasannjeet Singh. Master's Student, Linnaeus University
+ */
+
 package com.prasannjeet.hellolambda;
 
 public class helloOutput {
     private String message;
     private String functionName;
-    private int theHashCode;
+//    private int theHashCode;
     private int memoryLimit;
 
     public String getMessage() {
@@ -30,11 +34,11 @@ public class helloOutput {
         this.memoryLimit = memoryLimit;
     }
 
-    public int getTheHashCode() {
-        return theHashCode;
-    }
-
-    public void setTheHashCode(int theHashCode) {
-        this.theHashCode = theHashCode;
-    }
+//    public int getTheHashCode() {
+//        return theHashCode;
+//    }
+//
+//    public void setTheHashCode(int theHashCode) {
+//        this.theHashCode = theHashCode;
+//    }
 }

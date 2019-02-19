@@ -1,3 +1,7 @@
+/*
+ * Copyright (c) 2019. Prasannjeet Singh. Master's Student, Linnaeus University
+ */
+
 package com.prasannjeet.hellolambda;
 
 public class helloInput {
