@@ -10,6 +10,7 @@ public class helloHandler implements RequestHandler<helloInput, helloOutput> {
         o.setMessage("Hello " + helloInput.getName());
         o.setFunctionName(context.getFunctionName());
         o.setMemoryLimit(context.getMemoryLimitInMB());
+        o.setTheHashCode(helloInput.hashCode());
         context.getLogger().log(helloInput.getName() + " said hello");
         return o;
     }

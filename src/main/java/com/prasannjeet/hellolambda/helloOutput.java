@@ -3,6 +3,7 @@ package com.prasannjeet.hellolambda;
 public class helloOutput {
     private String message;
     private String functionName;
+    private int theHashCode;
     private int memoryLimit;
 
     public String getMessage() {
@@ -27,5 +28,13 @@ public class helloOutput {
 
     public void setMemoryLimit(int memoryLimit) {
         this.memoryLimit = memoryLimit;
+    }
+
+    public int getTheHashCode() {
+        return theHashCode;
+    }
+
+    public void setTheHashCode(int theHashCode) {
+        this.theHashCode = theHashCode;
     }
 }
