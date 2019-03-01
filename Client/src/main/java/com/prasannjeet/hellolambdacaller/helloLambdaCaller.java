@@ -34,7 +34,7 @@ public class helloLambdaCaller {
         InvokeResult invokeResult = client.invoke(invokeRequest);
         String s = StandardCharsets.UTF_8.decode(invokeResult.getPayload()).toString();
         helloOutput out = gson.fromJson(s, helloOutput.class);
-        System.out.println("Message: " + out.getMessage() + "\n" +
+        System.out.println("Message from Serverless: " + out.getMessage() + "\n" +
                 "FunctionName: " + out.getFunctionName() + "\n" +
                 "Memory: " + out.getMemoryLimit());
     }
