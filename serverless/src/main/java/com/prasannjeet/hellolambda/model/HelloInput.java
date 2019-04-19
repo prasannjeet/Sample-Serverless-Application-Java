@@ -4,9 +4,15 @@
 
 package com.prasannjeet.hellolambda.model;
 
+
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 @Data
+@NoArgsConstructor
 public class HelloInput {
-    private String name;
+    String name;
+    public HelloInput(String name) {
+        this.name = name;
+    }
 }

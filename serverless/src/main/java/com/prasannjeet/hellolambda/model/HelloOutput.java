@@ -4,14 +4,14 @@
 
 package com.prasannjeet.hellolambda.model;
 
-import com.amazonaws.services.lambda.runtime.CognitoIdentity;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 @Data
+@NoArgsConstructor
 public class HelloOutput {
     private String message;
     private String functionName;
     private int theHashCode;
     private int memoryLimit;
-//    CognitoIdentity cognitoIdentity;
 }
